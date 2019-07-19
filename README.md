@@ -37,6 +37,8 @@ dependencies {
            app:bgColor="@android:color/black"
            app:sliderTintColor="@android:color/white"
            app:sliderIconTint="@android:color/white"
+           app:afterSrc="@drawable/after"
+           app:beforeSrc="@drawable/before"
            app:imageHeightPercent="0.5"
            app:sliderWidthPercent="0.75"
    />
@@ -49,7 +51,9 @@ dependencies {
 | --- | --- |
 | `bgColor` |The color in int of the background color (by default @android:color/black) | 
 | `sliderTintColor` | The color int of the slider tint color (by default @android:color/white) |
-| `sliderIconTint` | The size in sp of the slider icon color (by default @android:color/white)|
+| `sliderIconTint` | The size in int of the slider icon color (by default @android:color/white)|
+| `afterSrc` | The resource in int of the slider icon color|
+| `beforeSrc` | The resource in int of the slider icon color|
 | `imageHeightPercent`|The height percent of the imageView (by default 0.55f) |
 | `sliderWidthPercent` |The width percent of the sliderView (by default 0.65f) |
 
