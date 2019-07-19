@@ -1,4 +1,4 @@
-# BeforeafterView
+# BeforeAfterView
 
 Before After animation library write in Kotlin.
 
