@@ -24,7 +24,7 @@ allprojects {
 
 dependencies {
       implementation 'com.github.fevziomurtekin:BeforeAfterView:1.0.0'
-	  }
+   }
 }
 ```
 
