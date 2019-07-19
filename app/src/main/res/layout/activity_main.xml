@@ -10,7 +10,11 @@
    <com.fevziomurtekin.beforeafterview.BeforeAfterView
            android:layout_width="match_parent"
            android:layout_height="match_parent"
-           app:bgColor="@color/black"
+           app:bgColor="@android:color/black"
+           app:sliderTintColor="@android:color/white"
+           app:sliderIconTint="@android:color/white"
+           app:imageHeightPercent="0.5"
+           app:sliderWidthPercent="0.75"
    />
 
 </android.support.constraint.ConstraintLayout>

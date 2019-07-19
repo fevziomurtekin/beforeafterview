@@ -6,5 +6,7 @@
         <attr name="afterSrc" format="integer" />
         <attr name="sliderTintColor" format="integer"/>
         <attr name="sliderIconTint" format="integer"/>
+        <attr name="imageHeightPercent" format="float"/>
+        <attr name="sliderWidthPercent" format="float" />
     </declare-styleable>
 </resources>
