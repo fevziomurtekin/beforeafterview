@@ -10,19 +10,26 @@
     <ImageView
             android:id="@+id/iv_after"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/after"
-            android:scaleType="fitCenter"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/before"
             android:alpha="1"
     />
 
    <ImageView
            android:id="@+id/iv_before"
            android:layout_width="match_parent"
-           android:layout_height="match_parent"
+           android:layout_height="wrap_content"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintRight_toRightOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
            android:alpha="1"
-           android:src="@drawable/before"
-           android:scaleType="fitCenter"
+           android:scaleType="fitXY"
    />
 
     <android.support.constraint.ConstraintLayout
@@ -50,6 +57,7 @@
         <View
                 android:layout_width="0dp"
                 android:layout_height="4dp"
+                android:id="@+id/slider_view"
                 android:background="@android:color/white"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"

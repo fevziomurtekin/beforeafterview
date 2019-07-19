@@ -1,19 +1,15 @@
-package com.fevziomurtekin.beforeafter
+package com.fevziomurtekin.beforeafterview
 
-import android.support.v4.view.ViewCompat.setTranslationY
-import android.support.v4.view.ViewCompat.setTranslationX
 import android.view.MotionEvent
-import android.support.v4.view.ViewCompat.getTranslationY
-import android.support.v4.view.ViewCompat.getTranslationX
-import android.util.Log
 import android.view.GestureDetector
 import android.view.View
 import android.view.View.OnTouchListener
 
 
-class MoveViewTouchListener(private val rangeSlider:View,
+class GestureListener(private val rangeSlider:View,
                             private val mView: View,
-                            val onChangedXAxis: OnChangedXAxis) : OnTouchListener {
+                            val onChangedXAxis: OnChangedXAxis
+) : OnTouchListener {
     private val mGestureDetector: GestureDetector
 
     private val mGestureListener = object : GestureDetector.SimpleOnGestureListener() {
