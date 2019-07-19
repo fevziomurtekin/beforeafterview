@@ -7,7 +7,7 @@ Before After animation library write in Kotlin.
 # Demo
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/fevziomurtekin/BeforeAfterView/master/art/record.gif" width="360"  height="640" />
+<img src="https://github.com/fevziomurtekin/BeforeAfterView/blob/master/art/record.gif" width="270"  height="480" />
 </p>
 
 # Setup
