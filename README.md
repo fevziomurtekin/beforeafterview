@@ -52,8 +52,8 @@ dependencies {
 | `bgColor` |The color in int of the background color (by default @android:color/black) | 
 | `sliderTintColor` | The color int of the slider tint color (by default @android:color/white) |
 | `sliderIconTint` | The size in int of the slider icon color (by default @android:color/white)|
-| `afterSrc` | The resource in int of the slider icon color|
-| `beforeSrc` | The resource in int of the slider icon color|
+| `afterSrc` | The resource in int of the imageview src|
+| `beforeSrc` | The resource in int of the imageview src|
 | `imageHeightPercent`|The height percent of the imageView (by default 0.55f) |
 | `sliderWidthPercent` |The width percent of the sliderView (by default 0.65f) |
 
