@@ -4,6 +4,8 @@ Before After animation library write in Kotlin.
 
 <br>
 
+[![](https://jitpack.io/v/fevziomurtekin/BeforeAfterView.svg)](https://jitpack.io/#fevziomurtekin/BeforeAfterView) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-BeforeAfterView-green.svg?style=flat )]( https://android-arsenal.com/details/1/7782 )
+
 # Demo
 
 <p align="center">
